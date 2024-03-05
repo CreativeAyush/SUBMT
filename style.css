@@ -1,0 +1,201 @@
+.man {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.photu{
+    height: 304px ;width: 300px;border-radius: 10px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.above {
+    position: absolute;
+    width: 52%;
+    height: 45%;
+    left: 25%;
+    top: 10%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.photo {
+    background-color: white;
+    border-radius: 5px;
+    width: 20%;
+    height: 20%;
+    display: flex;
+}
+
+.text {
+    position: relative;
+    left: 25%;
+    top: 40%;
+    right: 10%;
+    white-space: nowrap; /* This ensures that text doesn't wrap to the next line */
+}
+.text>button{
+    background-color: #24AFB5;
+    color: white;
+text-decoration: solid;
+    border-style: none;
+    border-radius: 6px ;
+    /* height: 35px;
+    width: 72px; */
+    padding: 11px 16px 11px 16px;
+    text-align: center;
+    top: 20px;
+    position: relative;
+}
+
+.text>p{
+    line-height: 1.5;
+    color: grey;
+}
+
+.down{
+    background-color: white;
+    width: 52%;
+    height: 30%;
+    left: 24%;
+    position: absolute;
+    top: 63%;
+    display: flex;
+}
+.do{
+    margin-left: 0%;
+    background-color: white;
+    width: 52%;
+    height: 5%;
+    left: 25%;
+    position: absolute;
+    font-style: inherit;
+    color: grey;
+    top: 55%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .do{
+        margin-left: 0%;
+        background-color: white;
+        width: 52%;
+        height: 5%;
+        left: 10%;
+        position: absolute;
+        font-style: inherit;
+        color: grey;
+        top: 55%;
+    }
+    .down{
+        background-color: white;
+        width: 52%;
+        height: 30%;
+        left: 9%;
+        position: absolute;
+        top: 63%;
+        display: flex;
+    }
+    .above {
+        position: absolute;
+        width: 52%;
+        height: 45%;
+        left: 10%;
+        top: 10%;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .text {
+        position: relative;
+        left: 25%;
+        top: 0%;
+        white-space: nowrap; /* This ensures that text doesn't wrap to the next line */
+    }
+    .photo {
+        background-color: white;
+        border-radius: 5px;
+        width: 20%;
+        height: 20%;
+        display: flex;
+        position: relative;
+    }
+    @media screen and (max-device-width: 640px) {
+        .above {
+            position: absolute;
+            width: 52%;
+            height: 45%;
+            left: 25%;
+            top: 10%;
+            background-color: white;
+            border-radius: 5px;
+        }
+        
+        .photo {
+            background-color: white;
+            border-radius: 5px;
+            width: 40%; 
+            height: 40%; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+            align-items: center; 
+        }
+        
+        .text {
+            position: relative;
+            left: 25%;
+            top: 40%;
+            right: 10%;
+            white-space: nowrap; 
+        }
+        
+        .text > button {
+            background-color: #24AFB5;
+            color: white;
+            text-decoration: solid;
+            border-style: none;
+            border-radius: 6px;
+            padding: 11px 16px 11px 16px;
+            text-align: center;
+            top: 20px;
+            position: relative;
+        }
+        
+        .text > p {
+            line-height: 1.5;
+            color: grey;
+        }
+        
+        .down {
+            background-color: white;
+            width: 52%;
+            height: 30%;
+            left: 24%;
+            position: absolute;
+            top: 63%;
+            display: flex;
+        }
+        
+        .do {
+            margin-left: 0%;
+            background-color: white;
+            width: 52%;
+            height: 5%;
+            left: 25%;
+            position: absolute;
+            font-style: inherit;
+            color: grey;
+            top: 55%;
+        }
+        .photu{
+            height: 700px ;width: 700px;border-radius: 10px;
+        }
+    }
+    }    
+    
